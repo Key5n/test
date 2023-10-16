@@ -18,7 +18,7 @@ class SheetName:
         self.name = newname
 
 
-# エントランス
+# エントランスsu
 print('家計簿プログラムへようこそ！\n\n扱うシートを入力してください')
 s = SheetName(str(input('シート名：')))
 Sheet = s.getSheetName()
