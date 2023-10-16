@@ -18,7 +18,7 @@ class SheetName:
         self.name = newname
 
 
-# エントランスsu
+# エントランス
 print('家計簿プログラムへようこそ！\n\n扱うシートを入力してください')
 s = SheetName(str(input('シート名：')))
 Sheet = s.getSheetName()
@@ -58,7 +58,7 @@ def getLenDT():
 taxdic = {int(1):1.00, int(2):1.08, int(3):1.10}
 catdic = {int(1):'食事', int(2):'スナック', int(3):'外食', int(4):'部活', int(5):'趣味', int(6):'学業', int(7):'日用品', int(8):'交通', int(9):'ゲーム', int(0):'その他'}
 
-# 商品の追加関数
+# 商品を追加する関数
 def addgoods():
     Sheet = s.getSheetName() # グローバル非宣言
     scene = 1
